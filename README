@@ -1,0 +1,12 @@
+A Unix Shell in Ruby
+
+A series of articles on creating a unix shell in Ruby by Jesse Storimer
+
+Part 1: A Unix Shell in Ruby
+http://jstorimer.com/2012/02/16/a-unix-shell-in-ruby.html
+
+Part 2: Builtins
+http://jstorimer.com/2012/02/21/a-unix-shell-in-ruby-builtins.html
+
+Part 3: A Login Shell and the PATH
+http://jstorimer.com/2012/03/10/a-unix-shell-in-ruby-search-path.html
