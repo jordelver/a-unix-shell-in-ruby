@@ -2,7 +2,10 @@
 require 'shellwords'
 
 
-BUILTINS = { 'cd' => lambda { |dir| Dir.chdir(dir) }}
+BUILTINS = {
+  'cd' => lambda { |dir| Dir.chdir(dir) },
+  'exit' => lambda { |code = 0| exit(code.to_i) }
+}
 
 loop do
   $stdout.print '-> '
